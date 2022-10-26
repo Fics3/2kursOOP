@@ -17,7 +17,5 @@ int main() {
   cout<<a<<endl;
   int key=1;
   cout<<s;
-//    int b=s.find()6;
-//    cout<<s;
     return 0;
 }
