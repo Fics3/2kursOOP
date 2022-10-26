@@ -15,26 +15,11 @@ int main() {
     Stack.push(6);
     Stack.push(25);
     Stack.push(6);
-   Stack.push(144);
-//   Stack.push(7);
-   Stack.push(32);
-//   cout<<Stack<<endl;
-//   Stack.clear();
-//   Stack.pop();
+    Stack.push(144);
+    Stack.push(32);
+    Stack.pop();
     cout<<Stack<<endl;
-//    Stack.ReverseStack();
-//    cout<<Stack<<endl;
     cout<<Stack.DelEvenNum(Stack1);
- //   cout<<Stack1;
-// cout<<Stack;
-    //Stack.push(3);
-    //cout<<Stack<<endl;
-    //Stack.pop();
-    //cout<<Stack;
-    //Stack.clear();
-    //cout << Stack;
-    //cout<<"\nStack is Clear";
-    //Stack.pop();
-    //cout<<Stack;
+
     return 0;
 }
