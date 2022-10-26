@@ -18,20 +18,12 @@ inline std::istream& operator>>(std::istream &in , Point &t) {
     in >> t.z;
     return in;
 }
-
 inline std::ostream& operator<<(std::ostream &out ,const Point &t) {
     out << t.x<<' ';
     out << t.y<<' ';
     out << t.z<<' ';
     return out;
 }
-//inline Point operator%(const Point& a,const Point& b){
-//    return Point(a.x%b.x,a.y%b.y,a.z%b.z);
-//    if (((a.x%b.x)==0)&&((a.y%b.y)==0)&&((a.z%b.z)==0))
-//    return 0;
-//    el
-//}
-
 Point::Point() {
     x = 0;
     y = 0;
