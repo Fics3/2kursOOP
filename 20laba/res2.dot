@@ -1,0 +1,1 @@
+digraph E2{5->4->3->2->5[shape=ellipse,style=filled,color=green]1->5->4->3->2}
