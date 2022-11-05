@@ -35,3 +35,4 @@ public:
     void dfs(int v,int v_start,int dc);
     void dgr(int v);
 };
+#endif //LABA4_GRAPH_H
