@@ -1,6 +1,5 @@
 #include <iostream>
 #include "graph.h"
-#include <gvc.h>
 
 
 int main() {
@@ -10,8 +9,13 @@ int main() {
     fin>>v;
     fin>>dc;
     graph a;
-    ifstream gr("C:\\Users\\zxggx\\CLionProjects\\laba4\\res.txt");
-
+    a.dgr(0);
+    for (int i = 0; i < a.fullGraph.size()-1;i++) {
+        a.out<<a.fullGraph[i]<<"->";
+    }
+    a.out<<a.fullGraph.back();
+    a.out.close();
     a.dfs(v-1,v-1,dc);
+
     return 0;
 }
